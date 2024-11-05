@@ -1,0 +1,549 @@
+[
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734427.webp",
+        "name": "模糊入场",
+        "effect": "blur_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734435.webp",
+        "name": "波浪弹入",
+        "effect": "wave_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734428.webp",
+        "name": "羽化向右擦开",
+        "effect": "scroll_right_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734439.webp",
+        "name": "羽化向左擦开",
+        "effect": "scroll_left_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734441.webp",
+        "name": "心形弹跳",
+        "effect": "heartjump_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734442.webp",
+        "name": "音符弹跳",
+        "effect": "musicjump_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734523.webp",
+        "name": "螺旋上升",
+        "effect": "rotateup_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734444.webp",
+        "name": "收拢",
+        "effect": "close_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734445.webp",
+        "name": "弹弓",
+        "effect": "slingshot_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734430.webp",
+        "name": "空翻",
+        "effect": "rotateflip_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734434.webp",
+        "name": "弹性伸缩",
+        "effect": "elasticzoom_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734443.webp",
+        "name": "弹入",
+        "effect": "zoom_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734449.webp",
+        "name": "弹簧",
+        "effect": "spring_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734438.webp",
+        "name": "渐显",
+        "effect": "fade_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734433.webp",
+        "name": "生长",
+        "effect": "growth_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734437.webp",
+        "name": "开幕",
+        "effect": "open_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734453.webp",
+        "name": "溶解",
+        "effect": "dissovle_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734426.webp",
+        "name": "轻微放大",
+        "effect": "zoomslightout_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734425.webp",
+        "name": "缩小",
+        "effect": "zoomin_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734436.webp",
+        "name": "放大",
+        "effect": "zoomout_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734429.webp",
+        "name": "圆形扫描",
+        "effect": "angular_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734431.webp",
+        "name": "旋入",
+        "effect": "rotate1_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734440.webp",
+        "name": "旋转飞入",
+        "effect": "rotate2_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734432.webp",
+        "name": "故障打印机",
+        "effect": "brokentypewriter_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734455.webp",
+        "name": "打字机I",
+        "effect": "typewriter1_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734447.webp",
+        "name": "打字机II",
+        "effect": "typewriter2_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734446.webp",
+        "name": "打字机III",
+        "effect": "typewriter3_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734451.webp",
+        "name": "向左滑动",
+        "effect": "slide_left_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734450.webp",
+        "name": "向右滑动",
+        "effect": "slide_right_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734460.webp",
+        "name": "向下滑动",
+        "effect": "slide_down_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734457.webp",
+        "name": "向上滑动",
+        "effect": "slide_up_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734454.webp",
+        "name": "日出",
+        "effect": "sunrise_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734452.webp",
+        "name": "向左擦除",
+        "effect": "wipe_left_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734456.webp",
+        "name": "向右擦除",
+        "effect": "wipe_right_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734458.webp",
+        "name": "向下擦除",
+        "effect": "wipe_down_in"
+    },
+    {
+        "tag": "in_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734459.webp",
+        "name": "向上擦除",
+        "effect": "wipe_up_in"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734463.webp",
+        "name": "模糊",
+        "effect": "blur_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734461.webp",
+        "name": "波浪弹出",
+        "effect": "wave_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734462.webp",
+        "name": "羽化向右擦除",
+        "effect": "scroll_right_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734464.webp",
+        "name": "羽化向左擦除",
+        "effect": "scroll_left_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734465.webp",
+        "name": "螺旋下降",
+        "effect": "rotatedown_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734482.webp",
+        "name": "弹弓",
+        "effect": "slingshot_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734477.webp",
+        "name": "展开",
+        "effect": "open_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734481.webp",
+        "name": "空翻",
+        "effect": "rotateflip_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734485.webp",
+        "name": "弹性伸缩",
+        "effect": "elasticzoom_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734479.webp",
+        "name": "弹簧",
+        "effect": "spring_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734480.webp",
+        "name": "弹出",
+        "effect": "zoom_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734483.webp",
+        "name": "渐隐",
+        "effect": "fade_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734484.webp",
+        "name": "生长",
+        "effect": "growth_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734487.webp",
+        "name": "闭幕",
+        "effect": "close_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734478.webp",
+        "name": "溶解",
+        "effect": "dissolve_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734473.webp",
+        "name": "轻微放大",
+        "effect": "zoomslightout_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734474.webp",
+        "name": "缩小",
+        "effect": "zoomin_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734476.webp",
+        "name": "放大",
+        "effect": "zoomout_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734475.webp",
+        "name": "圆形扫描",
+        "effect": "angular_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734466.webp",
+        "name": "旋出",
+        "effect": "rotate1_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734467.webp",
+        "name": "旋转飞出",
+        "effect": "rotate2_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734469.webp",
+        "name": "故障打印机",
+        "effect": "brokentypewriter_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734486.webp",
+        "name": "打字机I",
+        "effect": "typewriter1_out"
+    },
+    {
+        "tag": "out_effect",
+        "name": "打字机II",
+        "url":"https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734468.webp",
+        "effect": "typewriter2_out"
+    },
+    {
+        "tag": "out_effect",
+        "name": "打字机III",
+        "url":"https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734472.webp",
+        "effect": "typewriter3_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734470.webp",
+        "name": "向左滑动",
+        "effect": "slide_left_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734471.webp",
+        "name": "向右滑动",
+        "effect": "slide_right_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734488.webp",
+        "name": "向上滑动",
+        "effect": "slide_up_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734494.webp",
+        "name": "向下滑动",
+        "effect": "slide_down_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734490.webp",
+        "name": "日落",
+        "effect": "sunset_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734489.webp",
+        "name": "向左擦除",
+        "effect": "wipe_left_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734491.webp",
+        "name": "向右擦除",
+        "effect": "wipe_right_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734492.webp",
+        "name": "向上擦除",
+        "effect": "wipe_up_out"
+    },
+    {
+        "tag": "out_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734493.webp",
+        "name": "向下擦除",
+        "effect": "wipe_down_out"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734497.webp",
+        "name": "正常循环",
+        "effect": "normal_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734496.webp",
+        "name": "调皮",
+        "effect": "naughty_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734501.webp",
+        "name": "逐字放大",
+        "effect": "zoomout_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734508.webp",
+        "name": "色差放大",
+        "effect": "colordiff_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734498.webp",
+        "name": "心跳",
+        "effect": "heartbeat_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734499.webp",
+        "name": "摇荡",
+        "effect": "rock_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734500.webp",
+        "name": "故障闪动",
+        "effect": "broken_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734502.webp",
+        "name": "颤抖",
+        "effect": "shake_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734504.webp",
+        "name": "波浪",
+        "effect": "wave_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734503.webp",
+        "name": "超强波浪",
+        "effect": "strongwave_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734505.webp",
+        "name": "晃动",
+        "effect": "swag_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734514.webp",
+        "name": "跳动",
+        "effect": "jump_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734507.webp",
+        "name": "轻微跳动",
+        "effect": "slightjump_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734509.webp",
+        "name": "摇摆",
+        "effect": "swing_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734506.webp",
+        "name": "闪烁",
+        "effect": "shine_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734511.webp",
+        "name": "旋转",
+        "effect": "rotate_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734512.webp",
+        "name": "钟摆",
+        "effect": "clockswing_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734516.webp",
+        "name": "雨刷",
+        "effect": "rainbrush_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734513.webp",
+        "name": "弹幕滚动",
+        "effect": "rollleft_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0766198961/p734510.webp",
+        "name": "字幕滚动",
+        "effect": "roll_display"
+    },
+    {
+        "tag": "loop_effect",
+        "url": "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1766198961/p734515.webp",
+        "name": "翻转",
+        "effect": "flip_display"
+    }
+    
+]
