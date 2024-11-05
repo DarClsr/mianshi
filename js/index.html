@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        // JSON2DOM = react 的 render 函数
+
+        let vnode = {
+            tag: "DIV",
+            attrs: {
+                id: "app",
+            },
+            children: [
+                {
+                    tag: "SPAN",
+                    children: [{ tag: "A", children: [] }],
+                },
+                {
+                    tag: "SPAN",
+                    children: [
+                        { tag: "A", children: [] },
+                        { tag: "A", children: [] },
+                    ],
+                },
+            ],
+        };
+
+        const render = (vnode) => {
+            if (typeof vnode === "number") {
+                vnode = String(vnode);
+            }
+
+            if (typeof vnode === "string") {
+                return document.createTextNode(vnode);
+            }
+
+            const dom = document.createElement(vnode.tag);
+
+            if (vnode.attrs) {
+                Object.keys(vnode.attrs).forEach((key) => {
+                    dom[key] = vnode.attrs[key];
+                });
+            }
+
+            vnode&&vnode.children.forEach((child) => {
+                dom.appendChild(render(child));
+            });
+
+            return dom;
+        };
+
+        const root=render(vnode);
+
+        document.body.appendChild(root);
+
+
+
+        
+
+    </script>
+
+</body>
+
+</html>

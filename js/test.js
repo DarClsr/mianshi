@@ -1,22 +1,58 @@
-// 产生一个不重复的随机数组;
+// JSON2DOM = react 的 render 函数
 
-function getRandomArray(length, min, max) {
-  if (length > max) {
-    throw "length 不能小于 max";
+let vnode = {
+  tag: "DIV",
+  attrs: {
+    id: "app",
+  },
+  children: [
+    {
+      tag: "SPAN",
+      children: [{ tag: "A", children: [] }],
+    },
+    {
+      tag: "SPAN",
+      children: [
+        { tag: "A", children: [] },
+        { tag: "A", children: [] },
+      ],
+    },
+  ],
+};
+
+const render = (vnode) => {
+  if (typeof vnode === "number") {
+    vnode = String(vnode);
   }
 
-  let arr = [];
-
-  while (arr.length < length) {
-    let num = Math.floor(Math.random() * (max - min + 1) + min);
-    if (arr.indexOf(num) === -1) {
-      arr.push(num);
-    }
+  if (typeof vnode === "string") {
+    return document.createTextNode(vnode);
   }
 
-  return arr;
-}
+  const dom = document.createElement(vnode.tag);
 
-const list = getRandomArray(10, 1, 55);
+  if (vnode.attrs) {
+    Object.keys(vnode.attrs).forEach((key) => {
+      dom[key] = vnode.attrs[key];
+    });
+  }
 
-console.log(list);
+  vnode.children.forEach((child) => {
+    dom.appendChild(render(child));
+  });
+
+  return dom;
+};
+
+
+
+//   把上诉虚拟Dom转化成下方真实Dom
+//   <div id="app">
+//     <span>
+//       <a></a>
+//     </span>
+//     <span>
+//       <a></a>
+//       <a></a>
+//     </span>
+//   </div>
