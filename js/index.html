@@ -9,63 +9,76 @@
 
 <body>
 
+    <button class="home">home</button>
+    <button class="ranking">ranking</button>
+
     <script>
 
-        // JSON2DOM = react 的 render 函数
+        const home = document.querySelector(".home");
+        const rank = document.querySelector(".ranking");
 
-        let vnode = {
-            tag: "DIV",
-            attrs: {
-                id: "app",
-            },
-            children: [
-                {
-                    tag: "SPAN",
-                    children: [{ tag: "A", children: [] }],
-                },
-                {
-                    tag: "SPAN",
-                    children: [
-                        { tag: "A", children: [] },
-                        { tag: "A", children: [] },
-                    ],
-                },
-            ],
-        };
+        home.addEventListener("click", () => {
+            location.hash = "/home"
+        })
 
-        const render = (vnode) => {
-            if (typeof vnode === "number") {
-                vnode = String(vnode);
+        rank.addEventListener("click", () => {
+            location.hash = "/ranking"
+        })
+
+
+
+        class Route {
+            curUrl = ""
+            routes = {}
+
+            constructor() {
+                // this.init();
             }
 
-            if (typeof vnode === "string") {
-                return document.createTextNode(vnode);
+            route(path, cb) {
+
+                this.routes[path] = cb;
+
             }
 
-            const dom = document.createElement(vnode.tag);
+            refresh() {
+                console.log("refresh h")
+                this.curUrl = location.href.split("#")[1] || "/"
+                console.log(this.routes);
+                if (this.routes[this.curUrl]) {
+                    this.routes[this.curUrl]()
+                }
 
-            if (vnode.attrs) {
-                Object.keys(vnode.attrs).forEach((key) => {
-                    dom[key] = vnode.attrs[key];
-                });
             }
 
-            vnode&&vnode.children.forEach((child) => {
-                dom.appendChild(render(child));
-            });
+            init() {
 
-            return dom;
-        };
+                window.addEventListener("load", () => {
+                    this.refresh()
+                }, false)
+                window.addEventListener("hashchange", () => {
+                    this.refresh()
+                }, false)
+            }
+        }
 
-        const root=render(vnode);
+        const r = new Route();
 
-        document.body.appendChild(root);
+        r.route("/home", () => {
+            document.body.style.background = "red";
+            document.innerText = "home";
+        })
 
+        r.route("/ranking", () => {
+            document.body.style.background = "blue";
+            document.innerText = "ranking";
+        })
 
-
-        
+        r.init()
 
     </script>
+
+
 
 </body>
 

@@ -1,58 +1,41 @@
-// JSON2DOM = react 的 render 函数
+// Map 场景题
 
-let vnode = {
-  tag: "DIV",
-  attrs: {
-    id: "app",
+let data = [
+  {
+    name: "可乐",
+    categories: ["热门", "饮料"],
   },
-  children: [
-    {
-      tag: "SPAN",
-      children: [{ tag: "A", children: [] }],
-    },
-    {
-      tag: "SPAN",
-      children: [
-        { tag: "A", children: [] },
-        { tag: "A", children: [] },
-      ],
-    },
-  ],
-};
+  {
+    name: "苹果",
+    categories: ["热门", "食物"],
+  },
+  {
+    name: "洗衣液",
+    categories: ["生活用品"],
+  },
+];
 
-const render = (vnode) => {
-  if (typeof vnode === "number") {
-    vnode = String(vnode);
-  }
+const main = () => {
 
-  if (typeof vnode === "string") {
-    return document.createTextNode(vnode);
-  }
+  let res=[]
+  const map = new Map();
 
-  const dom = document.createElement(vnode.tag);
+  data.forEach((item, index) => {
+    const { name, categories } = item;
 
-  if (vnode.attrs) {
-    Object.keys(vnode.attrs).forEach((key) => {
-      dom[key] = vnode.attrs[key];
+    categories.forEach((keyWord, index) => {
+      if(!map.has(keyWord)){
+        map.set(keyWord, [item.name]);
+      }else{
+        map.get(keyWord).push(item.name);
+      }
     });
-  }
-
-  vnode.children.forEach((child) => {
-    dom.appendChild(render(child));
   });
 
-  return dom;
+  map.forEach((val, key) => {
+    res.push({ name: key, categories: val });
+  });
+  return res;
 };
 
-
-
-//   把上诉虚拟Dom转化成下方真实Dom
-//   <div id="app">
-//     <span>
-//       <a></a>
-//     </span>
-//     <span>
-//       <a></a>
-//       <a></a>
-//     </span>
-//   </div>
+console.log(main())
