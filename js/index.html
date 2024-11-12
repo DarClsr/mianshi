@@ -4,81 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>简单路由</title>
 </head>
 
 <body>
 
-    <button class="home">home</button>
-    <button class="ranking">ranking</button>
+
+    <button class="home" data-path="/home">home</button>
+    <button class="profile" data-path="/profile">profile</button>
+
 
     <script>
 
-        const home = document.querySelector(".home");
-        const rank = document.querySelector(".ranking");
+        const btns=document.querySelectorAll("button");
 
-        home.addEventListener("click", () => {
-            location.hash = "/home"
-        })
-
-        rank.addEventListener("click", () => {
-            location.hash = "/ranking"
-        })
-
-
+        for(let btn of btns) {
+            btn.onclick=(e)=>{
+                const path=e.target.dataset.path;
+                location.hash=path;
+            }
+        }
 
         class Route {
-            curUrl = ""
-            routes = {}
-
             constructor() {
-                // this.init();
+                this.curUrl = "";
+                this.routes = {}
+
+                this.init()
             }
 
             route(path, cb) {
-
                 this.routes[path] = cb;
-
             }
 
             refresh() {
-                console.log("refresh h")
-                this.curUrl = location.href.split("#")[1] || "/"
-                console.log(this.routes);
+                this.curUrl = location.href.split("#")[1] || "/";
+
+                console.log(this.curUrl)
+
                 if (this.routes[this.curUrl]) {
                     this.routes[this.curUrl]()
                 }
-
             }
 
             init() {
+                window.onload = () => {
+                    this.refresh()
+                }
 
-                window.addEventListener("load", () => {
+                window.onhashchange = () => {
+                    console.log("hash change")
                     this.refresh()
-                }, false)
-                window.addEventListener("hashchange", () => {
-                    this.refresh()
-                }, false)
+                }
             }
         }
+
+
 
         const r = new Route();
 
         r.route("/home", () => {
             document.body.style.background = "red";
-            document.innerText = "home";
         })
 
-        r.route("/ranking", () => {
+        r.route("/profile", () => {
             document.body.style.background = "blue";
-            document.innerText = "ranking";
         })
 
-        r.init()
+        
+
+
 
     </script>
-
-
 
 </body>
 
